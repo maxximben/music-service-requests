@@ -1,0 +1,24 @@
+info:
+  name: Add song
+  type: http
+  seq: 17
+
+http:
+  method: PATCH
+  url: "{{base_url}}/playlist/add-song?songId=19&playlistId=2"
+  params:
+    - name: songId
+      value: "19"
+      type: query
+    - name: playlistId
+      value: "2"
+      type: query
+  auth:
+    type: bearer
+    token: token123
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

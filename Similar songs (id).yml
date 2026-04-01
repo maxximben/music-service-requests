@@ -1,0 +1,15 @@
+info:
+  name: Similar songs (id)
+  type: http
+  seq: 10
+
+http:
+  method: GET
+  url: "{{base_url}}/test/similar-songs/ids/14"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

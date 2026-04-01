@@ -1,0 +1,8 @@
+name: music-service
+variables:
+  - name: base_url
+    value: https://maxximben-music-service-3f54.twc1.net
+  - name: localhost
+    value: http://localhost:8080
+  - name: fastapi
+    value: https://maxximben-essentia-fastapi-60a2.twc1.net
