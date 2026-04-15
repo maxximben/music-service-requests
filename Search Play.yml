@@ -1,14 +1,14 @@
 info:
-  name: Search
+  name: Search Play
   type: http
-  seq: 10
+  seq: 16
 
 http:
   method: GET
-  url: "{{localhost}}/search?request=q"
+  url: "{{localhost}}/search/play?songId=1"
   params:
-    - name: request
-      value: q
+    - name: songId
+      value: "1"
       type: query
   auth:
     type: bearer
