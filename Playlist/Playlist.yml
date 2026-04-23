@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{base_url}}/playlist?playlistId=2"
+  url: "{{localhost}}/playlist?playlistId=2"
   params:
     - name: playlistId
       value: "2"

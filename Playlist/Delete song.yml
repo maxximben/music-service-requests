@@ -5,13 +5,13 @@ info:
 
 http:
   method: DELETE
-  url: "{{base_url}}/playlist/delete-song?songId=19&playlistId=2"
+  url: "{{localhost}}/playlist/delete-song?songId=3&playlistId=6"
   params:
     - name: songId
-      value: "19"
+      value: "3"
       type: query
     - name: playlistId
-      value: "2"
+      value: "6"
       type: query
   auth:
     type: bearer

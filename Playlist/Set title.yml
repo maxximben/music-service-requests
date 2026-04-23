@@ -1,21 +1,21 @@
 info:
-  name: Add song
+  name: Set title
   type: http
-  seq: 17
+  seq: 6
 
 http:
   method: PATCH
-  url: "{{localhost}}/playlist/add-song?songId=3&playlistId=6"
+  url: "{{localhost}}/playlist/set-title?title=new_title&playlistId=6"
   params:
-    - name: songId
-      value: "3"
+    - name: title
+      value: new_title
       type: query
     - name: playlistId
       value: "6"
       type: query
   auth:
     type: bearer
-    token: token123
+    token: "123"
 
 settings:
   encodeUrl: true

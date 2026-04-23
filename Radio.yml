@@ -1,0 +1,22 @@
+info:
+  name: Radio
+  type: http
+  seq: 15
+
+http:
+  method: GET
+  url: "{{localhost}}/get-radio?songId=45&userId=53"
+  params:
+    - name: songId
+      value: "45"
+      type: query
+    - name: userId
+      value: "53"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

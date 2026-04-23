@@ -5,12 +5,12 @@ info:
 
 http:
   method: POST
-  url: "{{base_url}}/sign-in"
+  url: "{{localhost}}/sign-in"
   body:
     type: json
     data: |-
       {
-        "email": "vasya@gmail.com",
+        "email": "vasya22@gmail.com",
         "password": "Password1."
       }
   auth: inherit

@@ -1,18 +1,17 @@
 info:
-  name: Sign up
+  name: Create playlist
   type: http
-  seq: 3
+  seq: 4
 
 http:
   method: POST
-  url: "{{localhost}}/sign-up"
+  url: "{{localhost}}/playlist/create"
   body:
     type: json
     data: |-
       {
-        "email": "vasya22@gmail.com",
-        "username": "vasya2",
-        "password": "Password1."
+        "title": "testPlaylist1",
+        "userId": 53
       }
   auth: inherit
 

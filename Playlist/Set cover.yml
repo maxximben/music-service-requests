@@ -1,0 +1,28 @@
+info:
+  name: Set cover
+  type: http
+  seq: 5
+
+http:
+  method: PATCH
+  url: "{{localhost}}/playlist/set-cover?playlistId=6"
+  params:
+    - name: playlistId
+      value: "6"
+      type: query
+  body:
+    type: multipart-form
+    data:
+      - name: file
+        type: file
+        value:
+          - C:\Users\Maksim\Desktop\HF0GSqfasAM44mc.jpg
+  auth:
+    type: bearer
+    token: "123"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

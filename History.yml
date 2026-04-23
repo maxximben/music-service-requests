@@ -8,7 +8,7 @@ http:
   url: "{{localhost}}/history"
   auth:
     type: bearer
-    token: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ2YXN5YUBnbWFpbC5jb20iLCJpYXQiOjE3NzYyNDcyNDIsImV4cCI6MTc3Njg1MjA0Mn0.1pXeyU0nutm9q2faivLW5cdjAIYFgrQQG0PJNIdCh9T1STnRHsEkE7emDhTSixhT
+    token: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ2YXN5YTIyQGdtYWlsLmNvbSIsImlhdCI6MTc3NjkyOTkyMSwiZXhwIjoxNzc3NTM0NzIxfQ.PELGmv3HfVSNY_CHaTHwjHyBFjqlDIhGY2z-7hr8IuRmJwrgzjXORkarF9cAStZC
 
 settings:
   encodeUrl: true

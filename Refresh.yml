@@ -5,12 +5,12 @@ info:
 
 http:
   method: POST
-  url: "{{base_url}}/refresh"
+  url: "{{localhost}}/refresh"
   body:
     type: json
     data: |-
       {
-        "refreshToken": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ2YXN5YUBnbWFpbC5jb20iLCJpYXQiOjE3NzUwNjIxNTcsImV4cCI6MTc3NTY2Njk1N30.FJ7F0QT9pWEnJeLRzVw7LECTcdcVUw2TEfBd-RrYMfX-7cyBZo3JQvuevGTXTxIA"
+        "refreshToken": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ2YXN5YTIyQGdtYWlsLmNvbSIsImlhdCI6MTc3NjkyOTkyMSwiZXhwIjoxNzc3NTM0NzIxfQ.PELGmv3HfVSNY_CHaTHwjHyBFjqlDIhGY2z-7hr8IuRmJwrgzjXORkarF9cAStZC"
       }
   auth: inherit
 
